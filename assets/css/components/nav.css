@@ -1,0 +1,21 @@
+.nav-container{
+    text-transform: uppercase;
+    font-weight: 550;
+}
+.nav-container ul li a {
+    display: block;
+    padding: 10px 0;    
+    border-top: 2px solid var(--main-color-white);
+    border-bottom: 2px solid var(--main-color-white);
+
+}
+.nav-container ul li a:hover {
+    color: var(--main-color);
+}
+.nav-container ul li a.active {
+    border-top: 2px solid var(--main-color);
+}
+.nav-container ul li a:hover {
+    border-top: 2px solid var(--main-color);
+}
+
