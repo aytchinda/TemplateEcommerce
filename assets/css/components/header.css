@@ -8,7 +8,7 @@
 .banner-promo {
 
     /* height: 50px; */
-    line-height: 30px;
+    line-height: 33px;
     font-size: 1.3rem;
 }
 
@@ -140,6 +140,16 @@
     }
     .website-details{
         padding: 0 5px;
+        border: none;
+    }
+    .nav-top{
+        padding: 5px;
+    }
+    .logo h2 a{
+        margin: 5px 0;
+    }
+    .logo h2 {
+        margin:  0;
     }
 }
 
@@ -153,6 +163,15 @@
     .website-details{
         padding: 0 5px;
     }
+    .banner-promo-container{
+        width: 100%;
+    }
+    .banner-promo {
+        font-size: 0.8rem;
+    }
+    .nav-social-icon{
+        padding: 0 0 0 0;
+    }
 }
 
 @media screen and (max-width: 427px) {
@@ -165,4 +184,20 @@
     .website-details{
         padding: 0 5px;
     }
+    .banner-promo-container{
+        width: 100%;
+        text-align: center;
+       
+    }
+    .banner-promo {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .nav-social-icon{
+        padding: 0 30px 0 0;
+    }
+    .logo h2 a{
+        padding: 0 30px 0 0;
+    }
+    
 }

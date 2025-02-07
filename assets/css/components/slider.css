@@ -1,4 +1,56 @@
 .slider-image{
     background-image: url("/assets/images/slider/slide-1.jpg");
-    height: 400px;
+    height: 500px;
+    background-position-x:  70% ;
+}
+.slider-content{
+    top: 10%;
+    left: 10%;
+    min-width: 25%;
+    height: 200px;
+    padding: 0 20px;
+    white-space: nowrap;
+
+}
+.slider-content h4{
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.08rem;
+    opacity: 0.7;
+    margin: 0;
+    white-space: nowrap;
+}
+.slider-content h2{
+    font-size: 2.32rem;
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    font-family: 'Segoe Script','Savoye LET',Tahoma, Geneva, Verdana, sans-serif;
+}
+.slider-content h3{
+    font-size: 5.9em;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+.slider-content .slider-actions span{
+    font-weight: bold;
+}
+.slider-content .slider-actions .price{
+    font-weight: bold;
+    color: var(--main-color-white);
+    background-color: var(--main-color);
+    padding: 10px;
+    font-size: 1.1rem;
+    transform: rotate(-15deg);   
+
+}
+.slider-content .slider-actions .btn{
+    border-radius: 0;
+    color: var(--main-color-white);
+    background-color: var(--main-color-black);
+    height: 27px;
+    line-height: 27px;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
