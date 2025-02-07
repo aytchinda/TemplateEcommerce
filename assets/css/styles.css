@@ -5,9 +5,12 @@ i{
 i:hover{
     color: var(--main-color);
 }
-.logo h2{
+.logo h2 a{
     display: block;
     text-transform: uppercase;
     color: var(--main-color);
     margin-top: 30px;
+}
+.pages{
+    height: 200vh;
 }
