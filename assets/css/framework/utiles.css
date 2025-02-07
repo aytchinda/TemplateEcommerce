@@ -106,12 +106,16 @@ a {
     z-index: 1030;
 }
 
+img{
+    width: 100%;
+}
+
 .box {
     box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .tc {
-    text-align: center;
+    text-align: center !important;
 }
 
 .tr {

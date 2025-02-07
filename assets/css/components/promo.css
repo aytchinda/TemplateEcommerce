@@ -1,0 +1,50 @@
+.promo-icon{
+    width: 50px;
+}
+.promo-item{
+    min-width: 300px;
+}
+.promo-item .promo-details{
+    font-size: 0.8rem;    
+}
+.promo-icon i {
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+
+.promo-item .promo-details h3{
+    font-size: 0.7rem;
+}
+
+@media screen and (max-width: 1200px) {
+   
+}
+
+@media screen and (max-width: 992px) {
+    .promo-item{
+        min-width: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .promo-container{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .promo-item .promo-header{
+        line-height: 0.12rem;
+    }
+    .promo-item{
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+  
+}
+
+@media screen and (max-width: 427px) {
+    
+}
