@@ -1,5 +1,6 @@
 .section-title{
     text-transform: uppercase;
+    padding: 20px;
 }
 .section-title h2{
     display: flex;
@@ -14,4 +15,28 @@
     border-top: 1px solid var(--main-color-gray);
     position: relative;
     top: 20px;
+}
+@media screen and (max-width: 1200px) {
+   
+}
+
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+    .section-title h2{
+        font-size: 1.1rem;
+    }
+
+    .section-title h2::before,
+.section-title h2::after{
+    top: 12px;
+}
+}
+
+@media screen and (max-width: 576px) {
+  
+}
+
+@media screen and (max-width: 427px) {
+   
 }
