@@ -11,6 +11,9 @@ i:hover{
     color: var(--main-color);
     margin-top: 30px;
 }
+.bg-gray{
+    background-color: var(--main-color-gray);
+}
 .pages{
     height: 200vh;
 }
