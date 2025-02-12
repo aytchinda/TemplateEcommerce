@@ -67,7 +67,7 @@ span.badge.hot {
 }
 
 .product-details {
-    height: 150px;
+    height: 180px;
     display: flex;
     flex-direction: column;
 }

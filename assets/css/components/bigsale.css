@@ -1,0 +1,57 @@
+.banner-big-sale .container {
+    background-image: url("/assets/images/banner/banner-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+}
+
+.banner-big-sale .btn{
+ 
+    border-radius: 0;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    border: none;
+    white-space: nowrap;
+
+}
+.banner-big-sale .btn:nth-child(1){
+    background-color: var(--main-color-black);
+    color: var(--main-color-white);
+    transform: rotate(-7deg);
+}
+.banner-big-sale .btn:nth-child(3){
+   
+    transform: rotate(7deg);
+}
+
+.banner-big-sale .banner-big-sale-content{
+    color: var(--main-color-white);
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 1200px) {
+   
+}
+
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+    .banner-big-sale-content{
+        display: none;
+    }
+    .banner-big-sale .container{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+  
+}
+
+@media screen and (max-width: 427px) {
+    
+}
